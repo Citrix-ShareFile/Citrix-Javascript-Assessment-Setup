@@ -1,5 +1,5 @@
 {
-  "name": "Citrix_Online_JS_Assessment",
+  "name": "Citrix-Javascript-Assessment",
   "version": "0.1.0",
   "description": "A set of unit tests to assess the JS skills of applicants",
   "main": "index.js",
@@ -11,6 +11,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "timo.kissing@citrixonline.com",
   "license": "BSD"
 }
