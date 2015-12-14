@@ -1,6 +1,6 @@
 #citrix-js-assessment-intro
 
-This project is meant to help applicants for a web developer position at the Online Services Division of Citrix (short: Citrix Online) prepare for their programming challenge.
+This project is meant to help applicants for a web developer position at Citrix prepare for their programming challenge.
 
 If you are interviewing with us, you should have received an email pointing you here.
 As stated in that email, it is important that you **get this project working on your computer before you download the actual task from ShareFile**.
