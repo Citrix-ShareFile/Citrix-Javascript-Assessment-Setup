@@ -9,33 +9,25 @@ Your time does not start until you download the actual task from ShareFile, so t
 
 ## Prerequisites
 
-### Mac and Linux
-- Install Node.js from [nodejs.org](http://nodejs.org/download/)
-- Install PhantomJS from [phantomjs.org](http://phantomjs.org/download.html)
-- Install the grunt command line client by running ```sudo npm install -g grunt-cli```
+- Install Node.js from [nodejs.org](http://nodejs.org/)
 
 ### Windows Vista and later
-- Install Node.js from [nodejs.org](http://nodejs.org/download/)
 - Open a command line and verify that your path contains the following entries:
 	- ```C:\Program Files\nodejs```
 	- ```C:\Users\<username>\AppData\Roaming\npm```
     - Windows users: It is recommended to install nodejs to ```C:\nodejs```
-- Download PhantomJS from [phantomjs.org](http://phantomjs.org/download.html)
-- Extract and copy phantomjs.exe to ```C:\Program Files\PhantomJS```
-- Install the grunt command line client by running ```npm install -g grunt-cli```
 
 ## Running this project
 - Clone this project to your computer or download it as a ZIP file and unpack it
 - Open a command line of your choice and change the working directory to this project
-- Run ```npm install``` and verify it runs without errors
-- Run ```grunt```
+- Run ```npm install --no-optional``` and verify it runs without errors
+- Run ```npm test```
 - You should get output similar to this
 
 		Running "karma:unit" (karma) task
-		INFO [karma]: Karma server started at http://localhost:8765/
+		INFO [karma]: Karma server started at http://localhost:9876/
 		INFO [launcher]: Starting browser PhantomJS
-		INFO [karma]: To run via this server, use "karma run --runner-port 9999"
-		INFO [PhantomJS 1.9 (Mac)]: Connected on socket id s17Z0nnciOfl9-_MnwfP
+		INFO [PhantomJS 1.9 (Mac)]: Connected on socket JtaYxxO72yfdyTfXAAAA with id 39260919
 		PhantomJS 1.9 (Mac): Executed 1 of 1 SUCCESS (0.06 secs / 0.003 secs)
 		
 		Done, without errors.
@@ -45,9 +37,8 @@ Although you should not need to know these technologies to fulfill your task, he
 
 - [Node.js JavaScript Runtime](http://nodejs.org)
 - [PhantomJS Headless Webkit](http://phantomjs.org/)
-- [Grunt Task Runner](http://gruntjs.com)
 - [Karma Test Runner](http://karma-runner.github.io)
-- [Jasmine Test Framework](http://pivotal.github.io/jasmine)
+- [Jasmine Test Framework](http://jasmine.github.io/)
 - [Chai Assertion Library](http://chaijs.com)
 
 ## Next Step
