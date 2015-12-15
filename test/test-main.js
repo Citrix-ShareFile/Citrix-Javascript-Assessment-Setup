@@ -1,6 +1,5 @@
 var tests = [],
-	testFileRE = /Tests\.js$/;
-    
+	testFileRE = /tests-.*\.js$/;
 
 requirejs.config({
 	// Karma serves files from '/base'
